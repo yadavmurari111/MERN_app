@@ -4,8 +4,8 @@ export default function Card() {
     const dropDownData = [1, 2, 3, 4, 5, 6];
     return (
         <div>
-            <div className="card mt-3" style={{ height: '250px', width: '300px' }}>
-                <img src="..." class="card-img-top" alt="..." />
+            <div className="card mt-3" style={{ width: '250px' }}>
+                <img src="https://source.unsplash.com/random/300×300/?fruit" class="card-img-top" alt="..." style={{ maxHeight: '150px', objectFit: 'cover !important' }} />
                 <div class="card-body" >
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
